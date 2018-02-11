@@ -1,5 +1,12 @@
 <html>
 <body>
-  <script src="./index.js"></script>
-</body>
+    <div id="errorMessages" style="color: red"></div>
+    <script type="text/javascript">
+      window.onerror = function (msg) {
+        document.getElementById('errorMessages').append(msg)
+      }
+    </script>
+
+    <script src="./index.js"></script>
+  </body>
 </html>
