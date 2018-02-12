@@ -5,6 +5,7 @@
   },
   "private": true,
   "dependencies": {
+    "ramda": "^0.25.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "s-js": "^0.4.7"
