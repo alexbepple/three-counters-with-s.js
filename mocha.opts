@@ -1,4 +1,4 @@
 --require reify
 --check-leaks
 --recursive
-src/
+src/**/*test.js
