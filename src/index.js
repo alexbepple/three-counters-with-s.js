@@ -16,3 +16,6 @@ const App = () => (
 )
 
 s.root(() => render(<App />, document.getElementById('root')))
+
+if (localStorage.counter) s1(localStorage.counter)
+s.root(() => s(() => (localStorage.counter = s1())))
