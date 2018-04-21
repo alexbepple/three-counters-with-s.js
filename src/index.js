@@ -15,4 +15,6 @@ const App = () => (
   </div>
 )
 
-s.root(() => render(<App />, document.getElementById('root')))
+s.root(() =>
+  s.on([s1, s2], () => render(<App />, document.getElementById('root')))
+)
